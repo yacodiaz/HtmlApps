@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+.contenedor {
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+
+}
+
+.calculadora {
+    width: auto;
+    height: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 25%);
+
+}
+
+.numeros {
+    width: auto;
+    height: auto;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.numero {
+    height: 50px;
+    width: 32%;
+}
+button{
+    border: none;
+    letter-spacing: 0px;
+}
