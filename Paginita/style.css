@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #bef67a;
 }
 .contenedor {
     height: 600px;
@@ -24,19 +25,41 @@ body {
 }
 
 .numeros {
+    margin: 0;
     width: auto;
     height: auto;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background-color: #fb8c00;
+   
 }
-
+.operaciones{
+    background-color: #fb8c00;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  
+    height: 50px;
+    width: 107px;
+}
 .numero {
     height: 50px;
-    width: 32%;
+    width: 107px;
+}
+.resultado{
+    border: none;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #c25e00;
+    border-radius: 10px 10px 0px 0px;
 }
 button{
     border: none;
+    background: none;
     letter-spacing: 0px;
 }
