@@ -1,16 +1,17 @@
 * {
     margin: 0;
 }
-body{
-    background-color: #05668d;
 
+body {
+    background-color: #05668d;
 }
+
 .write input {
     background-color: #f0f3bd;
     border-radius: 20px;
     width: 90%;
     height: 100%;
-
+    vertical-align: top;
 }
 
 .contenedor {
@@ -21,25 +22,38 @@ body{
 }
 
 .saved {
+    background-color: #00f1bd;
     height: 500px;
-    background-color: #02c39a;
     border-radius: 20px;
     -webkit-box-shadow: -11px 14px 36px 3px rgba(0, 99, 78, 0.63);
     -moz-box-shadow: -11px 14px 36px 3px rgba(0, 99, 78, 0.63);
-    box-shadow: -11px 14px 36px  3px rgba(0, 99, 78, 0.63);
+    box-shadow: -11px 14px 36px 3px rgba(0, 99, 78, 0.63);
     margin-right: 10px;
 }
-.notas li{
+
+.notas li {
     border-bottom: 1px solid black;
     list-style-type: none;
     padding-top: 10px;
-    
 }
-.notas{
+
+.notas {
     padding: 10px;
     -webkit-padding-start: 0;
 }
-.nota{
-    width: 100%;
+
+.nota {
+    border-radius: 20px;
+    background-color: #02c39a;
+    width: 95%;
     height: 100px;
+    margin: 10px;
+    -webkit-box-shadow: -10px 10px 23px -8px rgba(0, 48, 38, 1);
+    -moz-box-shadow: -10px 10px 23px -8px rgba(0, 48, 38, 1);
+    box-shadow: -10px 10px 23px -8px rgba(0, 48, 38, 1);
+}
+
+.nota p {
+    margin-top: 5px;
+    margin-left: 10px;
 }
